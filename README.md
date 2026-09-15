@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=220&section=header&text=Calebe%20Barros&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Estudante%20de%20Informática%20para%20Internet&descAlignY=68"/>
 </p>
 
-<h1 align="center">👋 Olá, eu sou o Calebe Barros</h1>
+<h1 align="center">👋 Olá, eu sou o Yuri Torres</h1>
 
 <p align="center">
   Estudante de <strong>Informática para Internet (INFONET)</strong><br>
@@ -92,17 +92,6 @@ Meu objetivo é construir projetos cada vez mais profissionais, aprimorar minhas
 
 ---
 
-<div align="center">
-
-# 📂 Projetos em Destaque
-
-| Projeto | Descrição |
-|:--------:|:-----------|
-| 📚 **ETECVAV - INFONET** | Repositório com atividades, trabalhos e projetos do curso. |
-| 🤝 **Grupo ACDK** | Organização criada para o desenvolvimento dos projetos acadêmicos. |
-| 💼 **Portfólio** | Repositório com meus projetos e evolução durante o curso. |
-
-</div>
 
 ---
 
@@ -122,19 +111,7 @@ Meu objetivo é construir projetos cada vez mais profissionais, aprimorar minhas
 
 ---
 
-<div align="center">
 
-# 🤝 Grupo Acadêmico
-
-Faço parte da organização **ACDK**, criada para reunir atividades, projetos e trabalhos desenvolvidos durante o curso **INFONET**.
-
-<br>
-
-<a href="https://github.com/ACDK-ETECVAV">
-<img src="https://img.shields.io/badge/Visitar%20Organização-ACDK-2563EB?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
-</div>
 
 ---
 
@@ -154,25 +131,17 @@ Faço parte da organização **ACDK**, criada para reunir atividades, projetos e
 
 ---
 
-<div align="center">
 
-# 🐍 Snake Game
-
-<img src="https://github.com/Calebe-Barros/Calebe-Barros/blob/output/github-contribution-grid-snake-dark.svg"/>
-
-</div>
-
----
 
 <div align="center">
 
 # 🌐 Contato
 
-<a href="mailto:calebebarros108@gmail.com">
+<a href="mailto:fyuri.torres@gmail.com">
 <img src="https://skillicons.dev/icons?i=gmail"/>
 </a>
 
-<a href="https://github.com/Calebe-Barros">
+<a href="https://github.com/Yuri-TI-GIT">
 <img src="https://skillicons.dev/icons?i=github"/>
 </a>
 
