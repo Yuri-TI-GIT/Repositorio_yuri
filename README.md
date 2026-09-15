@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=220&section=header&text=Calebe%20Barros&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Estudante%20de%20Informática%20para%20Internet&descAlignY=68"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=220&section=header&text=Yuri%20Torres&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Estudante%20de%20Informática%20para%20Internet&descAlignY=68"/>
 </p>
 
 <h1 align="center">👋 Olá, eu sou o Yuri Torres</h1>
