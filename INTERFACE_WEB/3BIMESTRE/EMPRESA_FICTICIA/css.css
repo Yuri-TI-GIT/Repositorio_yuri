@@ -1,0 +1,623 @@
+
+/* ========================================
+   TROUXANET — IDENTIDADE VISUAL
+   Preto, vermelho, branco e amarelo
+======================================== */
+
+:root {
+    --black: #050505;
+    --red: #ff0808;
+    --white: #ffffff;
+    --gray: #dedede;
+    --muted: #bdbdbd;
+    --yellow: #ffe18b;
+    --surface: #151515;
+    --border: #303030;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    background: var(--black);
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.65;
+  }
+  
+  a {
+    color: inherit;
+  }
+  
+  .site-nav {
+    background: #050505;
+    border-bottom: 2px solid var(--red);
+    padding: 16px 0;
+  }
+  
+  .brand {
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 1.45rem;
+  }
+  
+  .brand i,
+  .brand span {
+    color: var(--red);
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #eeeeee;
+    font-weight: 700;
+    margin-left: 12px;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover,
+  .navbar-dark .navbar-nav .nav-link.active {
+    color: var(--red);
+  }
+  
+  .navbar-toggler {
+    border-color: var(--red);
+  }
+  
+  .btn-red {
+    background: var(--red);
+    border: 2px solid var(--red);
+    color: var(--white);
+    border-radius: 8px;
+    padding: 12px 22px;
+    font-weight: 800;
+    transition: 0.2s ease;
+  }
+  
+  .btn-red:hover,
+  .btn-red:focus {
+    background: #d90000;
+    border-color: #d90000;
+    color: var(--white);
+    transform: translateY(-2px);
+  }
+  
+  .btn-outline-light {
+    border-radius: 8px;
+    font-weight: 700;
+    padding: 12px 22px;
+  }
+  
+  .btn-outline-light:hover {
+    color: var(--black);
+  }
+  
+  /* Página inicial */
+  
+  .hero {
+    min-height: 85vh;
+    min-height: 85svh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 20px;
+    overflow: hidden;
+    isolation: isolate;
+    background:
+      radial-gradient(ellipse at center, #171717 0%, #050505 72%);
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .brush {
+    position: absolute;
+    z-index: -1;
+    height: 7px;
+    background: var(--red);
+    border-radius: 50%;
+    box-shadow: 0 7px 0 -2px var(--red);
+  }
+  
+  .brush-one {
+    top: 28px;
+    left: -25px;
+    width: 35%;
+    transform: rotate(-3deg);
+  }
+  
+  .brush-two {
+    bottom: 30px;
+    right: -20px;
+    width: 45%;
+    transform: rotate(-3deg);
+  }
+  
+  .hero-wifi {
+    color: var(--red);
+    font-size: clamp(5rem, 12vw, 9rem);
+    line-height: 1;
+  }
+  
+  .hero-logo {
+    margin: 12px 0;
+    font-family: Impact, "Arial Black", sans-serif;
+    font-size: clamp(4rem, 13vw, 9rem);
+    font-weight: 900;
+    letter-spacing: 3px;
+    line-height: 0.94;
+    transform: rotate(-3deg);
+  }
+  
+  .hero-logo span {
+    color: var(--red);
+    display: inline-block;
+    position: relative;
+  }
+  
+  .hero-logo span::after {
+    content: "";
+    height: 5px;
+    background: var(--red);
+    position: absolute;
+    left: -12%;
+    right: -12%;
+    top: 53%;
+    transform: rotate(-7deg);
+    z-index: -1;
+  }
+  
+  .hero-tagline {
+    margin-top: 40px;
+    font-size: clamp(1.4rem, 4vw, 2.3rem);
+    text-transform: uppercase;
+    line-height: 1.5;
+  }
+  
+  .hero-tagline span {
+    color: var(--red);
+  }
+  
+  .hero-description {
+    max-width: 620px;
+    margin: 18px auto;
+    color: var(--muted);
+  }
+  
+  /* Cabeçalhos e seções */
+  
+  .section-padding {
+    padding: 85px 0;
+  }
+  
+  .section-heading {
+    max-width: 780px;
+    margin: 0 auto 25px;
+  }
+  
+  .eyebrow {
+    display: inline-block;
+    color: var(--red);
+    font-size: 0.8rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .section-heading h2,
+  .page-header h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 900;
+    line-height: 1.15;
+  }
+  
+  .section-heading h2 span,
+  .page-header h1 span {
+    color: var(--red);
+  }
+  
+  .section-heading p,
+  .page-header p {
+    color: var(--muted);
+    font-size: 1.05rem;
+  }
+  
+  .page-header {
+    padding: 75px 20px 65px;
+    background:
+      linear-gradient(135deg, #181818, #050505 70%);
+    border-bottom: 1px solid var(--border);
+  }
+  
+  .page-header h1 {
+    margin: 0 0 12px;
+  }
+  
+  .page-header p {
+    margin: 0;
+  }
+  
+  /* Cartões gerais */
+  
+  .feature-card {
+    height: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--red);
+    border-radius: 14px;
+    padding: 30px;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--red);
+  }
+  
+  .feature-card > i {
+    color: var(--red);
+    font-size: 2.4rem;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.35rem;
+    font-weight: 800;
+  }
+  
+  .feature-card p {
+    color: var(--muted);
+    margin-bottom: 0;
+  }
+  
+  .step-number {
+    display: block;
+    color: var(--red);
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+  
+  /* Planos */
+  
+  .plan-card {
+    position: relative;
+    background: var(--gray);
+    color: var(--black);
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 30px 24px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+  }
+  
+  .plan-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--red);
+  }
+  
+  .plan-featured {
+    border: 2px solid var(--red);
+    background: #f2f2f2;
+  }
+  
+  .popular-tag {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 5px 10px;
+    background: var(--red);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 900;
+    border-radius: 5px;
+  }
+  
+  .plan-icon {
+    color: var(--red);
+    font-size: 2.5rem;
+  }
+  
+  .plan-label {
+    color: #555;
+    font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin: 10px 0 0;
+  }
+  
+  .plan-card h2 {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  
+  .speed {
+    font-size: clamp(2.5rem, 4vw, 3.5rem);
+    font-weight: 900;
+    line-height: 1.2;
+  }
+  
+  .speed small {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+  
+  .plan-divider {
+    height: 2px;
+    background: #c3c3c3;
+    margin: 12px 0;
+  }
+  
+  .price {
+    font-size: 1.8rem;
+    font-weight: 900;
+  }
+  
+  .price small {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  
+  .plan-benefits {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 25px;
+    flex-grow: 1;
+  }
+  
+  .plan-benefits li {
+    margin: 12px 0;
+  }
+  
+  .plan-benefits i {
+    color: #13833b;
+    margin-right: 7px;
+  }
+  
+  .disclaimer {
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  
+  .development-section {
+    background: #101010;
+    border-top: 1px solid var(--border);
+  }
+  
+  /* Página sobre */
+  
+  .about-intro {
+    display: grid;
+    grid-template-columns: minmax(200px, 0.8fr) minmax(0, 1.5fr);
+    gap: 40px;
+    align-items: center;
+    padding: 35px;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    background: var(--surface);
+  }
+  
+  .about-symbol {
+    text-align: center;
+    padding: 30px 10px;
+    background: var(--black);
+    border-radius: 14px;
+  }
+  
+  .about-symbol i {
+    display: block;
+    font-size: 5rem;
+    color: var(--red);
+  }
+  
+  .about-symbol span {
+    font-size: 1.8rem;
+    font-weight: 900;
+    font-family: Impact, "Arial Black", sans-serif;
+  }
+  
+  .about-symbol strong {
+    color: var(--red);
+  }
+  
+  .about-intro h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+  }
+  
+  .about-intro p {
+    color: var(--muted);
+  }
+  
+  .info-panel {
+    height: 100%;
+    padding: 28px;
+    border-radius: 14px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+  }
+  
+  .panel-icon {
+    color: var(--red);
+    font-size: 2.2rem;
+  }
+  
+  .info-panel h3 {
+    font-size: 1.3rem;
+    font-weight: 900;
+    margin: 12px 0 20px;
+  }
+  
+  .info-panel p {
+    color: var(--muted);
+    overflow-wrap: anywhere;
+  }
+  
+  .info-panel strong {
+    color: var(--white);
+  }
+  
+  .team-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    height: 100%;
+    padding: 25px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+  }
+  
+  .team-icon {
+    flex-shrink: 0;
+    width: 55px;
+    height: 55px;
+    display: grid;
+    place-items: center;
+    background: var(--red);
+    color: white;
+    border-radius: 12px;
+    font-size: 1.6rem;
+  }
+  
+  .team-label {
+    color: var(--red);
+    font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+  
+  .team-card h3 {
+    font-size: 1.15rem;
+    font-weight: 800;
+    margin: 8px 0;
+    overflow-wrap: anywhere;
+  }
+  
+  .team-card p {
+    color: var(--muted);
+    margin: 12px 0 0;
+  }
+  
+  .objective-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 30px;
+    color: var(--black);
+    background: var(--yellow);
+    border-radius: 16px;
+  }
+  
+  .objective-box > i {
+    font-size: 2.5rem;
+    flex-shrink: 0;
+  }
+  
+  .objective-box h2 {
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  
+  .objective-box p {
+    margin: 0;
+  }
+  
+  /* Rodapé */
+  
+  .site-footer {
+    padding: 28px 0;
+    background: #080808;
+    border-top: 2px solid var(--red);
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  
+  .site-footer strong {
+    color: var(--red);
+  }
+  
+  .site-footer a {
+    color: var(--white);
+    text-decoration: none;
+  }
+  
+  .site-footer a:hover {
+    color: var(--red);
+  }
+  
+  /* Telas menores */
+  
+  @media (max-width: 767px) {
+    .hero {
+      min-height: 80svh;
+      padding: 65px 15px;
+    }
+  
+    .hero-logo {
+      font-size: clamp(4rem, 17vw, 6rem);
+    }
+  
+    .hero-tagline {
+      margin-top: 30px;
+    }
+  
+    .section-padding {
+      padding: 60px 0;
+    }
+  
+    .page-header {
+      padding: 55px 15px;
+    }
+  
+    .about-intro {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding: 22px;
+    }
+  
+    .team-card {
+      padding: 20px;
+      gap: 14px;
+    }
+  
+    .objective-box {
+      flex-direction: column;
+      gap: 12px;
+      padding: 24px;
+    }
+  
+    .plan-card {
+      padding: 25px 20px;
+    }
+  
+    .site-nav .navbar-nav {
+      padding-top: 12px;
+    }
+  
+    .site-nav .nav-link {
+      margin-left: 0 !important;
+    }
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  
+    *,
+    *::before,
+    *::after {
+      transition-duration: 0.01ms !important;
+    }
+  }
+  
