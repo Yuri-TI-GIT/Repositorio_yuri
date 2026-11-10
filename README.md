@@ -16,7 +16,6 @@
   <img src="https://img.shields.io/badge/Curso-INFONET-2563EB?style=for-the-badge">
   <img src="https://img.shields.io/badge/ETECVAV-181717?style=for-the-badge">
   <img src="https://img.shields.io/badge/Desenvolvimento-Web-10B981?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Back--End-0F766E?style=for-the-badge">
 </p>
 
 ---
