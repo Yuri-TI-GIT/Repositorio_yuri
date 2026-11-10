@@ -8,7 +8,7 @@
   Estudante de <strong>Informática para Internet (INFONET)</strong><br>
   ETEC Vasco Antônio Venchiarutti (ETECVAV)<br><br>
 
-  Apaixonado por tecnologia, desenvolvimento Web e Back-End.<br>
+  Apaixonado por tecnologia, desenvolvimento Web e Front-End.<br>
   Sempre buscando aprender novas ferramentas e desenvolver projetos cada vez mais completos.
 </p>
 
@@ -27,7 +27,7 @@
 
 Sou estudante do curso Técnico em **Informática para Internet** na **ETEC Vasco Antônio Venchiarutti (ETECVAV)**.
 
-Tenho interesse em desenvolvimento de software, desenvolvimento Web, Banco de Dados e Back-End.
+Tenho interesse em desenvolvimento de software, desenvolvimento Web, Banco de Dados e Front-End.
 
 Meu objetivo é construir projetos cada vez mais profissionais, aprimorar minhas habilidades em programação e criar um portfólio sólido durante minha formação.
 
@@ -70,29 +70,6 @@ Meu objetivo é construir projetos cada vez mais profissionais, aprimorar minhas
 </div>
 
 ---
-
-
-
-
-<div align="center">
-
-# 📈 Progresso
-
-| Tecnologia | Nível |
-|:-----------|:------:|
-| HTML | ████████░░ 80% |
-| CSS | █████░░░░░ 50% |
-| JavaScript | ███░░░░░░░ 30% |
-| Python | ███░░░░░░░ 30% |
-| Git & GitHub | ███████░░░ 70% |
-
-</div>
-
----
-
-
-
-
 
 <div align="center">
 
