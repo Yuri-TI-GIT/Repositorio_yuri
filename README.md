@@ -48,7 +48,7 @@ Meu objetivo é construir projetos cada vez mais profissionais, aprimorar minhas
 | ⚡ JavaScript | 📖 |
 | 🐍 Python | 📖 |
 | 🗄️ Banco de Dados | 📖 |
-| 💻 Git & GitHub | 📖 |
+| 💻 Git & GitHub | ✅ |
 
 </div>
 
